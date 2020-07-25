@@ -26,7 +26,7 @@ const navLinks=[
  const Navigation = ({ user})=> {
      const [menuActive,setMenuActive]=useState(true);
 
-    return <nav className={"site-navigation"}>
+    return <nav className={"site-navigation"} role={"navigation"}>
     <span className={"menu-title"}>My react Blog</span>
 
         <div className={`menu-content-container ${menuActive && 'active'}`}>

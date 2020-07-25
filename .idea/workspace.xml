@@ -2,37 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c18d8129-e57a-4777-bcfe-9540b3701aa2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/cisco_world.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/cloud_world.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/javascript_world.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/react_world.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/mocks/featured.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/mocks/trending.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/_home.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/_masonry-post.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/_navigation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/_post-masonry.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/masonry-post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/post-masonry.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page-renderer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/blog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/contact-us.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/_post-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/tag-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/post-grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/tag-row.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/javascript_world.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/javascript_world.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/mocks/featured.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/mocks/featured.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/_masonry-post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/_masonry-post.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/_navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/_post-masonry.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/_post-masonry.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/masonry-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/masonry-post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/post-masonry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/post-masonry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +98,8 @@
       <workItem from="1595517565859" duration="18934000" />
       <workItem from="1595587025524" duration="4634000" />
       <workItem from="1595592117548" duration="3271000" />
-      <workItem from="1595608313252" duration="15961000" />
+      <workItem from="1595608313252" duration="25607000" />
+      <workItem from="1595673784780" duration="24664000" />
     </task>
     <servers />
   </component>

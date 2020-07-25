@@ -1,7 +1,27 @@
 .home{
+  padding: 2em 0;
  h1{
+   display: flex;
    width: 100%;
    color: $text-color;
- }
 
+ }
+  .bg-white{
+    background: white;
+  }
+.featured-post-container{
+  display: flex;
+
+}
+}
+@media screen and (max-width: 900px){
+ .home{
+   h1{
+     margin-block-start: 1.5em;
+     margin-block-end: 1.5em;
+   }
+   .featured-post-container{
+     flex-direction: column;
+   }
+ }
 }
