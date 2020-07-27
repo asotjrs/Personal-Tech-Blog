@@ -19,6 +19,7 @@ function App() {
               <Route path={"/contact-me"} render={()=> (window.location='mailto:asotjrs@gmail.com')} />
               <Route path={"/:page"} component={PageRenderer}/>
             <Route path={"/"} render={()=><Redirect to={"/home"}/>}/>
+            <Route path={"/Personal-Tech-Blog"} render={()=><Redirect to={"/home"}/>}/>
              <Route component={()=>404}/>
 
           </Switch>
