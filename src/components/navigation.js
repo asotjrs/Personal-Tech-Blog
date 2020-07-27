@@ -1,23 +1,21 @@
 import React,{useState} from "react";
-import {Link} from "react-router-dom";
+import {Link, Redirect} from "react-router-dom";
 import {Avatar} from "antd";
 const navLinks=[
     {
         title:'Home',
         path:'/'
     },
+
     {
-        title: 'Blog',
-        path: '/blog'
+        title:'Contact Me',
+        path:'/contact-me'
     },
     {
-        title:'Contact Us',
-        path:'/contact-us'
-    },
-    {
-        title:'login',
-        path:'/login'
+        title:'Blog',
+        path:'/blog'
     }
+
 ] ;
 
 
@@ -27,14 +25,17 @@ const navLinks=[
      const [menuActive,setMenuActive]=useState(true);
 
     return <nav className={"site-navigation"} role={"navigation"}>
-    <span className={"menu-title"}>My react Blog</span>
+    <span className={"menu-title"}>Personal Tech Blog</span>
 
         <div className={`menu-content-container ${menuActive && 'active'}`}>
             <ul>
                 {
                     navLinks.map((link,index)=>{
-                        return <li key={index}>
-                            <Link to={link.path}>{link.title}</Link>
+
+
+
+                        return  <li key={index}>
+                            <Link to={link.path}  >{link.title}</Link>
                         </li>;
 
                     })

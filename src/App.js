@@ -15,7 +15,9 @@ function App() {
       <div className="App">
           <Navigation user={user}/>
           <Switch>
-            <Route path={"/:page"} component={PageRenderer}/>
+              <Route path={'/blog'} render={()=> (window.location='https://asotjrs.github.io/Djafer-Abdelhadi/')}/>
+              <Route path={"/contact-me"} render={()=> (window.location='mailto:asotjrs@gmail.com')} />
+              <Route path={"/:page"} component={PageRenderer}/>
             <Route path={"/"} render={()=><Redirect to={"/home"}/>}/>
              <Route component={()=>404}/>
 
