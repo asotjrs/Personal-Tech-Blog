@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.00a4d095.chunk.css",
+    "main.js": "/static/js/main.e1676643.chunk.js",
+    "main.js.map": "/static/js/main.e1676643.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e435e4cf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e435e4cf.js.map",
+    "static/css/2.a9b640eb.chunk.css": "/static/css/2.a9b640eb.chunk.css",
+    "static/js/2.a8c0a5ee.chunk.js": "/static/js/2.a8c0a5ee.chunk.js",
+    "static/js/2.a8c0a5ee.chunk.js.map": "/static/js/2.a8c0a5ee.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a6a68274e1356614e5841e21677957f7.js": "/precache-manifest.a6a68274e1356614e5841e21677957f7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.a9b640eb.chunk.css.map": "/static/css/2.a9b640eb.chunk.css.map",
+    "static/css/main.00a4d095.chunk.css.map": "/static/css/main.00a4d095.chunk.css.map",
+    "static/js/2.a8c0a5ee.chunk.js.LICENSE.txt": "/static/js/2.a8c0a5ee.chunk.js.LICENSE.txt",
+    "static/media/aws_world.JPG": "/static/media/aws_world.3fa5f8aa.JPG",
+    "static/media/cisco_world.jpg": "/static/media/cisco_world.1950b5fa.jpg",
+    "static/media/cloud_world.jpg": "/static/media/cloud_world.0ab7029f.jpg",
+    "static/media/deno_world.JPG": "/static/media/deno_world.16f98fdf.JPG",
+    "static/media/ionicons-v4.css": "/static/media/ionicons.99b86349.woff",
+    "static/media/javascript_world.jpg": "/static/media/javascript_world.866548f3.jpg",
+    "static/media/port_security.PNG": "/static/media/port_security.300f5005.PNG",
+    "static/media/react_world.jpg": "/static/media/react_world.8af8e4b0.jpg",
+    "static/media/vlan_world.JPG": "/static/media/vlan_world.23c033a2.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e435e4cf.js",
+    "static/css/2.a9b640eb.chunk.css",
+    "static/js/2.a8c0a5ee.chunk.js",
+    "static/css/main.00a4d095.chunk.css",
+    "static/js/main.e1676643.chunk.js"
+  ]
+}
