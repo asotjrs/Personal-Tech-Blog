@@ -2,32 +2,32 @@ import moment from "moment";
 
 export default [
     {
-        title:"this is cisco world",
+        title:"next is port security ",
         date:moment().format('MMMM DD, YYYY'),
         categories: ['Tech Culture','Tech News'],
         link:"#",
-        image:'cisco_world.jpg'
+        image:'port_security.PNG'
     },
     {
-        title:"Cloud is Everywhere",
+        title:"Just studied Vlans and they are awesome !",
         date:moment().format('MMMM DD, YYYY'),
         categories: ['Cloud'],
         link:"#",
-        image:'cloud_world.jpg'
+        image:'vlan_world.JPG'
     },
     {
-        title:"React projects are awesome !",
+        title:"Deno is going to be the world leader JS runtime",
         date:moment().format('MMMM DD, YYYY'),
         categories: ['Tech Culture','Tech News'],
         link:"#",
-        image:'react_world.jpg'
+        image:'deno_world.JPG'
     },
     {
-        title:"Javascript is the word",
+        title:"I definetly I'm dive into the AWS world",
         date:moment().format('MMMM DD, YYYY'),
-        categories: ['Tech Culture','Tech News'],
+        categories: ['Cloud'],
         link:"#",
-        image:'javascript_world.jpg'
+        image:'aws_world.JPG'
     }
 
 ]

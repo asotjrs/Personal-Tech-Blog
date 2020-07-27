@@ -2,25 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c18d8129-e57a-4777-bcfe-9540b3701aa2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/_post-grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/tag-row.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/post-grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/tag-row.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphql/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphql/schemas/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphql/schemas/posts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphql/schemas/posts/mocks/featured.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphql/schemas/posts/mocks/trending.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphql/schemas/posts/posts-schema.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/aws_world.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/deno_world.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/port_security.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/vlan_world.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/javascript_world.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/javascript_world.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/mocks/featured.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/mocks/featured.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/_masonry-post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/_masonry-post.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/_navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/_post-masonry.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/_post-masonry.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/masonry-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/masonry-post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/post-masonry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/post-masonry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/mocks/trending.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/mocks/trending.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,10 +21,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="my-react-blog" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="GraphQL File" />
       </list>
     </option>
   </component>
@@ -43,6 +40,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
@@ -51,10 +49,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mahmoud\Desktop\my-react-blog\src\assets\images" />
+      <recent name="C:\Users\mahmoud\Desktop\my-react-blog\graphql\schemas\posts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -99,7 +99,10 @@
       <workItem from="1595587025524" duration="4634000" />
       <workItem from="1595592117548" duration="3271000" />
       <workItem from="1595608313252" duration="25607000" />
-      <workItem from="1595673784780" duration="24664000" />
+      <workItem from="1595673784780" duration="31800000" />
+      <workItem from="1595724394764" duration="1157000" />
+      <workItem from="1595725584783" duration="1235000" />
+      <workItem from="1595783277822" duration="4100000" />
     </task>
     <servers />
   </component>
